@@ -1,0 +1,75 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+        // float a, b;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.printf("nhap a: ");
+        // a = sc.nextFloat();
+        // System.out.printf("nhap b: ");
+        // b = sc.nextFloat();
+        // if(a==0){
+        //     if(b==0){
+        //         System.out.println("vo so nghiem");
+        //     }
+        //     else{
+        //         System.out.println("thong bao vo nghiem");
+        //     }
+        // }
+        // else{
+        //     System.out.println("nghiem la: " + (-b / a));
+        // } 
+                                                                        /*bài 1*/
+        // float a,b,c,d,x1,x2;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.printf("nhap a:");
+        // a = sc.nextFloat();
+        // System.out.printf("nhap b:");
+        // b = sc.nextFloat();
+        // System.out.printf("nhap c:");
+        // c = sc.nextFloat();
+        // if( a == 0) {
+        //     if ( b == 0 ) {
+        //     System.out.println("vo so nghiem");
+        //     }
+        //     else {
+        //         System.out.println("vo nghiem");
+        //     }
+        //     System.out.println("phuong trinh bac nhat: " + (-c/b));
+        // }
+        // else {
+        //     d = b*b - 4*a*c;
+        //     if(d<0) { 
+        //         System.out.println("ket qua = " + d + "(vo nghiem)");
+        //     }
+        //     else {
+        //         if(d==0) {
+        //             System.out.println("co nghiem kep x = " + (-b/2*a));
+        //         }
+        //         else {
+        //             if(d>0) {
+        //                 x1 = (float) ((-b + Math.sqrt(d)) / (2*a));
+        //                 x2 = (float) ((-b - Math.sqrt(d)) / (2*a));
+        //                 System.out.println("phuong trinh co 2 nghiem phan biet: " + "x1 = " + x1 + "x2 = " + x2);
+        //             }
+        //         }
+        //     }
+        // }
+                                                                            /*bài 2*/
+        // int sd,t;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.printf("nhap so dien trong thang: ");
+        // sd = sc.nextInt();
+        // if(sd<=50) {
+        //     t = sd * 1000;
+        //     System.out.printf("tien dien trong thang la: " + t);
+        // }
+        // else {
+        //     if(sd>50) {
+        //         t = 50 * 1000 + (sd - 50)*1200;
+        //         System.out.printf("tien dien trong thang la: " + t);
+        //     }
+        // }
+                                                                            /*bài 3*/
+    }
+}
