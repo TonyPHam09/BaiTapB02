@@ -1,12 +1,8 @@
-import java.util.Scanner;
-
-public class App {
-    public static void main(String[] args) {
-        // float a, b;
+// float a, b;
         // Scanner sc = new Scanner(System.in);
-        // System.out.printf("nhap a: ");
+        // System.out.print("nhap a: ");
         // a = sc.nextFloat();
-        // System.out.printf("nhap b: ");
+        // System.out.print("nhap b: ");
         // b = sc.nextFloat();
         // if(a==0){
         //     if(b==0){
@@ -71,5 +67,42 @@ public class App {
         //     }
         // }
                                                                             /*bài 3*/
-    }
-}
+        System.out.println("+------------------------------+");
+        System.out.println("1. giai phuong trinh bac nhat");/*case 1 */
+        System.out.println("2. giai phuong trinh bac hai");/*case 2 */
+        System.out.println("3. tinh tien dien");/*case 3 */
+        System.out.println("4. ket thuc ");/*end */
+        System.out.println("+------------------------------+");
+        int a;
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("nhap a: ");
+        a = sc.nextInt();
+        // switch (a) {
+        //     case 1:
+        //     Scanner sc = new Scanner(System.in);
+        //     System.out.print("nhap a: ");
+        //     a = sc.nextFloat();
+        //     System.out.print("nhap b: ");
+        //     b = sc.nextFloat();
+        //     if(a==0){
+        //         if(b==0){
+        //             System.out.println("vo so nghiem");
+        //         }
+        //         else{
+        //             System.out.println("thong bao vo nghiem");
+        //         }
+        //     }
+        //     else{
+        //         System.out.println("nghiem la: " + (-b / a));
+        //     } 
+        //     break;
+        //     case 2:
+        //     System.out.println("h3llo 2");
+        //     break;
+        //     case 3:
+        //     System.out.println("h3llo 3");
+        //     break;
+        //     default:
+        //     System.exit(0);
+        // }
+                                                                            /*bài 4*/
