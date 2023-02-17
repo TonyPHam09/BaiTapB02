@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        // System.out.println("Hello, World!");
         // float x, y;
         // Scanner sc = new Scanner(System.in);
         // System.out.printf("nhap x: ");
