@@ -1,4 +1,4 @@
-// float a, b;
+        // float a, b;
         // Scanner sc = new Scanner(System.in);
         // System.out.print("nhap a: ");
         // a = sc.nextFloat();
@@ -106,3 +106,89 @@
         //     System.exit(0);
         // }
                                                                             /*bài 4*/
+System.out.println("+------------------------------+");
+        // System.out.println("1. Giai phuong trinh bac nhat");/*case 1 */
+        // System.out.println("2. Giai phuong trinh bac hai");/*case 2 */
+        // System.out.println("3. Tinh tien dien");/*case 3 */
+        // System.out.println("4. Ket thuc ");/*end */
+        // System.out.println("+------------------------------+");
+        // int nhap;
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.printf("Nhap lua chon: ");
+        // nhap = scanner.nextInt();
+        // switch (nhap) {
+        //     case 1:
+        //     float a , b;
+        //     Scanner sc1 = new Scanner(System.in);
+        //     System.out.print("Nhap a: ");
+        //     a = sc1.nextFloat();
+        //     System.out.print("Nhap b: ");
+        //     b = sc1.nextFloat();
+        //     if(a==0){
+        //         if(b==0){
+        //             System.out.println("Thong bao vo so nghiem");
+        //         }
+        //         else{
+        //             System.out.println("Thong bao vo nghiem");
+        //         }
+        //     }
+        //     else{
+        //         System.out.println("Phuong trinh co nghiem la: " + (-b / a));
+        //     }
+        //     break;
+        //     case 2:
+        //     float x,y,z,d,x1,x2;
+        //     Scanner sc2 = new Scanner(System.in);
+        //     System.out.printf("Nhap a:");
+        //     x = sc2.nextFloat();
+        //     System.out.printf("Nhap b:");
+        //     y = sc2.nextFloat();
+        //     System.out.printf("Nhap c:");
+        //     z = sc2.nextFloat();
+        //     if( x == 0) {
+        //         if ( y == 0 ) {
+        //         System.out.println("Phuong trinh vo so nghiem");
+        //         }
+        //         else {
+        //             System.out.println("Phuong trinh vo nghiem");
+        //         }
+        //         System.out.println("Phuong trinh bac nhat co nghiem la: " + (-z/y));
+        //     }
+        //     else {
+        //         d = y*y - 4*x*z;
+        //         if(d<0) { 
+        //             System.out.println("Phuong trinh vo nghiem x = " + d);
+        //         }
+        //         else {
+        //             if(d==0) {
+        //                 System.out.println("Phuong trinh co nghiem kep x = " + (-y/2*x));
+        //             }
+        //             else {
+        //                 if(d>0) {
+        //                     x1 = (float) ((-y + Math.sqrt(d)) / (2*x));
+        //                     x2 = (float) ((-y - Math.sqrt(d)) / (2*x));
+        //                     System.out.println("Phuong trinh co 2 nghiem phan biet => " + "x1 = " + x1 + " x2 = " + x2);
+        //                 }
+        //             }
+        //         }
+        //     }
+        //     break;
+        //     case 3:
+        //     int sd,t;
+        //     Scanner sc3 = new Scanner(System.in);
+        //     System.out.printf("Nhap so dien trong thang: ");
+        //     sd = sc3.nextInt();
+        //     if(sd<=50) {
+        //         t = sd * 1000;
+        //         System.out.printf("Tien dien trong thang la: " + t);
+        //     }
+        //     else {
+        //         if(sd>50) {
+        //             t = 50 * 1000 + (sd - 50)*1200;
+        //             System.out.printf("Tien dien trong thang la: " + t);
+        //         }
+        //     }
+        //     break;
+        //     default:
+        //     System.exit(0);
+        // }
