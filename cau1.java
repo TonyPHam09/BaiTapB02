@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class cau1 {
-    public static boolean checkPerfectSquare(Integer n)
+    public static boolean checkPerfectSquare(int n)
     {                                                  
         double sqrt;                                   
         sqrt = Math.sqrt(n);                           
