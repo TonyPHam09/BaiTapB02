@@ -3,7 +3,8 @@ import java.lang.Math;
 
 public class cau4 {
      public static void main(String[] args) {
-        int n,i,s,temp,arr[];
+        int n,i,s,temp;
+        int[] arr;
         Scanner sc = new Scanner(System.in);
         System.out.printf("nhap mang: ");
         n = sc.nextInt();
